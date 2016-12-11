@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -15,7 +15,20 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <style>
+    body {
+        padding-top: 70px;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
+	
+	h1 {
+		color: #fff;
+	}
+	
+	h4 {
+		color: #fff;
+	}
+    </style>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -26,55 +39,73 @@
 
 </head>
 
-<body>
+	<LINK REL="SHORTCUT ICON"
+       HREF="favicon (1).ico">
+	
+<body background="http://i.imgur.com/mVEhAx6.png">
 
-    <div id="wrapper">
-
-        <!-- Sidebar -->
-        <div id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#">
-                        Updates
-                    </a>
-                </li>
-                <li>
-                    <a href="#update1">Evocity Update - 25/10/2016</a>
-                </li>
-                <li>
-                    <a href="#">empty</a>
-                </li>
-                <li>
-                    <a href="#">empty</a>
-                </li>
-            </ul>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://projectgr.github.io/map-progress/index.html">Map Development Progress</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+					<li>
+                        <a href="https://projectgr.github.io/map-progress/evocity.html">Evocity Edit</a>
+                    </li>
+                    <li>
+                        <a href="https://projectgr.github.io/map-progress/custom.html">Custom Map</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-        <!-- /#sidebar-wrapper -->
+        <!-- /.container -->
+    </nav>
 
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12">
-			<img src="http://i.imgur.com/Fn2XGe6.png">
-                        <h1>Team Objective - Map development</h1>
+    <!-- Page Content -->
+    <div class="container">
+
+<h1><b>Map Development Log</b></h1>
 						<br>
-			    <p>Welcome to Team Objective. Here we desire to create maps that you have always wanted. Below you can find out about our current project that we are working on.</p>    
-			    <br>
-                        <p><h4>Evocity Edit Progress</h4></p>
+                        <p><h4>Evocity Edit Progress  <span class="label label-primary">by Midget</span></h4></p>
 							<div class="progress">
 								<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100" style="width: 5%"><span class="sr-only">5% Complete</span></div>
 												</div>
 						<div class=well>
 							<p>
-						Evocity has gone through many changes since it was first started. The community has used the two maps to great much bigger and realistic scenario of roleplay.
+						Evocity has gone through many changes since it was first started. The community has used the two maps to create much bigger and realistic scenario of roleplay.
 Since they creation of Evocity 2, many players have suggested more buildings, areas and much more for both maps. We have listened to the community and 
 we are currently working on a new version of Evocity. There will be new buildings such as Police Station, Offices, Warehouses and much more. New land will
 be made for players to build on.
 							</p>
+							<br>
+						<div class="panel panel-primary">
+							<div class="panel-heading">
+								<h3 class="panel-title">To-Do list</h3>
+							</div>
+							<div class="panel-body">
+								+ Stuff<br>
+								- Other Stuff
+							</div>
 						</div>
-						<br>
-						<p><h4>Custom Map Progress</h4></p>
+					</div>
+					
+					<!-- evocity stuff above -->
+					<br><br><br>
+					
+					
+										<p><h4>Custom Map Progress <span class="label label-primary">by Project</span></h4></p>
 							<div class="progress">
 								<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100" style="width: 1%"><span class="sr-only">1% Complete</span></div>
 							</div>
@@ -84,62 +115,29 @@ be made for players to build on.
 created roleplay map designed for serious roleplay. We have also taken ideas and suggestions from members of different communities and noted them down. If
 you wish to contribute more, don't hesitate to email us!
 							</p>
-						</div>
-						<br><br><br><br><br>
-						
-						<h3><u>Recent Updates</u>:</h3>
-						<a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Sidebar</a>
-						<br><br><br><br>
-						
-						<h4>Update 25/10/2016</h4>
-						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-							<ol class="carousel-indicators">
-								<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-								<li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
-								<li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
-							</ol>
-						<div class="carousel-inner" role="listbox">
-							<div class="item active">
-								<img data-src="holder.js/1140x500/auto/#777:#555/text:First slide" alt="First slide [1140x500]" src="http://i.imgur.com/WMbR9Od.jpg" data-holder-rendered="true">
+							<br>
+						<div class="panel panel-primary">
+							<div class="panel-heading">
+								<h3 class="panel-title">To-Do list</h3>
 							</div>
-							<div class="item">
-								<img data-src="holder.js/1140x500/auto/#666:#444/text:Second slide" alt="Second slide [1140x500]" src="http://i.imgur.com/GQ1mFs9.jpg" data-holder-rendered="true">
-							</div>
-							<div class="item">
-								<img data-src="holder.js/1140x500/auto/#555:#333/text:Third slide" alt="Third slide [1140x500]" src="http://i.imgur.com/ru6KvZC.jpg" data-holder-rendered="true">
+							<div class="panel-body">
+								+ Stuff<br>
+								- Other Stuff
 							</div>
 						</div>
-				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
-				</a>
-				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
-				</a>
-			</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /#page-content-wrapper -->
-
+						</div>
+					
+					
+					
+					
     </div>
-    <!-- /#wrapper -->
+    <!-- /.container -->
 
-    <!-- jQuery -->
+    <!-- jQuery Version 1.11.1 -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
-    <!-- Menu Toggle Script -->
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
 
 </body>
 
